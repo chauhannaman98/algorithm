@@ -7,14 +7,14 @@ Divide and Conquer is an algorithmic paradigm. A typical Divide and Conquer algo
 3. **Combine:** Appropriately combine the answers
 
 ## Algorithm
-`Algorithm DAndC(p)	{
+Algorithm DAndC(p)	{
 	if Small(P) then return S(P);
 	else	{
 		divide P into smaller instances P<sub>1</sub>,P<sub>2</sub>,...,P<sub>k</sub>, k>=1;
 		Apply DAndC to each of these subproblems;
 		return Combine(DAndC(P<sub>1</sub>),DAndC(P<sub>2</sub>),...,DAndC(P<sub>k</sub>));
 		}
-	}`
+	}
 
 ## Divide and Conquer Vs Dynamic Programming
 
